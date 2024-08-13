@@ -28,7 +28,7 @@ function quizStart() {
 }
 
 // 60 second timer variable
-var seconds = 60;
+var seconds = 90;
 
 // Countdown timer starts the presentation of questions, answers and a timer
 // If the timer runs out the game is anounced as over
