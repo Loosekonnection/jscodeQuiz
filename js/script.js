@@ -34,7 +34,7 @@ var seconds = 60;
 // If the timer runs out the game is anounced as over
 function countdown() {
     interval = setInterval(function () {
-        if (seconds === 60) {
+        if (seconds === 90) {
             quizStart();
         } else if (seconds <= 0) {
             clearInterval(interval);
@@ -122,7 +122,7 @@ function selectAnswer(answer) {
         wrongMsg.textContent = "Wrong!";
         wrongMsg.setAttribute("class", "result");
         resultsDiv.appendChild(wrongMsg);
-        seconds -= 10;
+        seconds -= 5;
         shuffledQuestions.length > currentQuestionIndex + 1;
         currentQuestionIndex++;
         nextQuestion();
@@ -272,7 +272,7 @@ var questions = [
         ],
     },
     {
-        question: "How to write an IF statement in JavaScript?",
+        question: "How do you write an IF statement in JavaScript?",
         answers: [
             { text: "1. if i == 5 then", correct: false },
             { text: "2. if i = 5 then", correct: false },
@@ -281,7 +281,7 @@ var questions = [
         ],
     },
     {
-        question: "How do write an IF statement for executing some code if \"i\" is NOT equal to 5?",
+        question: "How do you write an IF statement for executing some code if \"i\" is NOT equal to 5?",
         answers: [
             { text: "1. if i =! 5 then", correct: false },
             { text: "2. if (i != 5)", correct: true },
