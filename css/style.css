@@ -1,0 +1,75 @@
+/* Allows for a fixed footer */
+body {
+    margin-bottom: 100px;    
+}
+
+/* Questions Presented in the questions container */
+.questions {
+    text-align: left;
+    font-size: large;
+    font-weight: bold;
+}
+
+/* Answer Button Styling */
+.answerBtn {
+    display: grid;
+    background-color: #750b5b;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 5px;
+    color: #eee;
+    outline: none;
+}
+.answerBtn:hover {
+    background-color: #96658a;
+}
+
+/* Correct! or Wrong! Message */
+.result {
+    font-size: large;
+    font-style: italic;
+    color: rgb(78, 77, 77);
+}
+
+/* Well Done! Message */
+.wellDoneMsg {
+    font-size: larger;
+    font-weight: bold;
+}
+
+/* name input field */
+.nameInput {
+    background-color: #cecece;
+    border-radius: 5px;
+    margin: 5px;
+    outline: none;
+    width: 230px;
+}
+
+/* name submit button */
+.submitBtn {
+    display: inline-block;
+    background-color: #750b5b;
+    border-radius: 5px;
+    margin: 5px;
+    color: #eee;
+    outline: none;
+}
+.submitBtn:hover {
+    background-color: #96658a;
+}
+
+/* Game Over Message */
+.gameOver {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: rgb(255, 0, 0);
+}
+
+/* High Scores List */
+.highScores {
+    font-size: 24px;
+    color: #157003;
+
+}
